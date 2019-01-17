@@ -13,4 +13,5 @@ encoding => 'Steganography.py -e ORIGINAL_IMAGE_PATH MESSAGE_TO_BE_HIDDEN [DECOD
 decoding => 'Steganography.py -d DECODED_IMAGE_PATH'
 for help => '--help'
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+
+![alt text](https://github.com/MA-Tex/SteganoPy/blob/master/encoded_SteganoPy%20Image.png)
