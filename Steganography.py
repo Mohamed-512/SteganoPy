@@ -211,7 +211,4 @@ def main():
             return
 
 
-# main()
-
-# encode_operation("SteganoPy Image.png", "You found me! Now you are a Cypher-Master")
-decode_operation("encoded_SteganoPy Image.png")
+main()
