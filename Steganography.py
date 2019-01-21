@@ -113,6 +113,7 @@ def decode(wh_couple, pixels):
 
     if something_found:
         return bin_str
+
     else:
         return None
 
@@ -134,7 +135,6 @@ def encode_operation(path, text, save_path=None):
 
     if wh[0] * wh[1] * 3 < len(text) * 7:
         print("Warning: Text too long for that image!")
-
     array = encode(new_image, wh, pixels_rgb, text)
     image = Image.fromarray(array)
     if save_path is None:
