@@ -1,10 +1,11 @@
+_This script requires Pillow library to be installed_
+
 # SteganoPy
  A python script that allows you to hide a text in an image, or decode an encrypted image.
   This method works by setting the least significant bits of each color element in each pixel,
 to a value that corresponds to the text given when encoding, and reading the least significant 
 bits and assembling them to come up with ascii text when decoding.
 
-*This script requires Pillow library to be installed*
 
 available funtions: encode & decode
 
