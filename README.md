@@ -4,7 +4,7 @@
 to a value that corresponds to the text given when encoding, and reading the least significant 
 bits and assembling them to come up with ascii text when decoding.
 
-*This script requires PIL library to be installed*
+*This script requires Pillow library to be installed*
 
 available funtions: encode & decode
 
