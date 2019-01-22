@@ -95,9 +95,9 @@ def decode(wh_couple, pixels):
                     broken = True
                     break
                 bin_buffer = ""
-
             bit = "1" if b % 2 == 1 else "0"
             bin_buffer += bit
+           
             if len(bin_buffer) == 7:
                 boolean, char = check_bin_buff(bin_buffer)
                 if boolean:
@@ -135,6 +135,7 @@ def encode_operation(path, text, save_path=None):
 
     if wh[0] * wh[1] * 3 < len(text) * 7:
         print("Warning: Text too long for that image!")
+
     array = encode(new_image, wh, pixels_rgb, text)
     image = Image.fromarray(array)
     if save_path is None:
