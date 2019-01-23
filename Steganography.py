@@ -10,7 +10,7 @@ help_arg = "--help"
 help_txt = "SteganoPy is a python script that does Steganography!\n" \
            "Steganography is a way of encrypting messages into media files *ONLY IN (PNG/JPEG)IMAGES HERE*,\n" \
            "this method changes the bits and RGB components in a way it's not obvious to human eye.\n" \
-           "Example: SteganoPy -e ~/Documents/toBeDecoded.png \"This is a secret message\"\n" \
+           "          Example: SteganoPy -e ~/Documents/toBeDecoded.png \"This is a secret message\"\n" \
            "Possible arguments:\n" \
            "encoding => '"+os.path.basename(__file__)+" -e ORIGINAL_IMAGE_PATH MESSAGE_TO_BE_HIDDEN [DECODED_IMAGE_PATH]'\n" \
            "decoding => '"+os.path.basename(__file__)+" -d DECODED_IMAGE_PATH'\n" \
