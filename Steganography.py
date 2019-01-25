@@ -59,7 +59,6 @@ def encode(im, wh_couple, pixels, text):
 
     return np.asarray(im)
 
-
 def decode(wh_couple, pixels):
     bin_buffer = ""
     something_found = False
