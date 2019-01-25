@@ -115,7 +115,6 @@ def decode(wh_couple, pixels):
     else:
         return None
 
-
 def check_bin_buff(text):
     char_num = int(text, 2)
     if char_num == 0:
