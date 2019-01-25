@@ -19,5 +19,7 @@ decoding => 'Steganography.py  -d  DECODED_IMAGE_PATH'
 
 for help => '--help'
 
+
+
 ***Try fetching the hidden message in the image below using SteganoPy!***
 ![alt text](https://github.com/MA-Tex/SteganoPy/blob/master/encoded_SteganoPy%20Image.png)
