@@ -8,7 +8,6 @@ bits and assembling them to come up with ascii text when decoding.
 
 
 available funtions: encode & decode
-
 Example: SteganoPy -e ~/Documents/toBeDecoded.png "This is a secret message"
 
 Possible arguments:
