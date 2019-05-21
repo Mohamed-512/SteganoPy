@@ -3,7 +3,6 @@ import numpy as np
 import sys
 import os.path
 
-
 MAX_ARGUMENTS_LIMIT = 4
 encode_arg = "-e"
 decode_arg = "-d"
